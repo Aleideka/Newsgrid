@@ -174,8 +174,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation */
 #main-nav {
   background: #fff;
+  position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  width: 100%;
+  top: 0px;
   z-index: 2;
 }
 
@@ -373,4 +375,9 @@ h1, h2, h3, h4, h5, h6 {
 #contact-form textarea:focus {
   outline: none;
   border-color: var(--secondary-color);
+}
+
+/* Categories */
+.pb-cat {
+  padding-bottom: 200px;
 }
