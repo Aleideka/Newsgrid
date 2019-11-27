@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 #main-nav .container {
   display: grid;
   grid-template-columns: 1.2fr 1fr 2fr;
-  padding: 1rem;
+  padding: 0.75rem;
   align-items: center;
 }
 
@@ -300,10 +300,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Category Pages */
+#category-pages .articles-container {
+  display: grid;
+  grid-gap: 1.5rem;
+}
+
 #category-pages .articles-container > * {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   grid-column: 1 / span 2;
 }
 
