@@ -92,6 +92,10 @@
   .l-heading {
     font-size: 2rem;
   }
+
+  #main-nav {
+    font-size: 14px;
+  }
   
   /* Categories */
   .pb-cat {
